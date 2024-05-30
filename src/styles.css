@@ -1,1 +1,61 @@
 /* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,500;1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,700;1,700&display=swap');
+
+/* <uniquifier>: Use a unique and descriptive class name
+<weight>: Use a value from 100 to 900 */
+
+.raleway-normal {
+	font-family: "Raleway", sans-serif;
+	font-optical-sizing: auto;
+	font-weight: 500;
+	font-style: normal;
+}
+
+.raleway-bold {
+	font-family: "Raleway", sans-serif;
+	font-optical-sizing: auto;
+	font-weight: 700;
+	font-style: italic;
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'Montserrat', sans-serif;
+	background: var(--background);
+	color: var(--white-text);
+	/* overflow-x: hidden; */
+}
+
+html {
+	scroll-behavior: smooth;
+}
+
+a{
+    text-decoration: none;
+}
+
+button i {
+	/* font-size: 1rem; */
+	height: 100%;
+
+}
+
+
+/*Estilo pagina*/
+
+:root {
+	--background: #000000;
+	--background-minus-black: #121212;
+	--third-grade-black: #333;
+	--pink-principal: #FF1493;
+	--purple-principal: #8A2BE2;
+	--celeste-principal: #00FFFF;
+
+	--white-text: #e0e0e0;
+}
